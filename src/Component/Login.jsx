@@ -16,10 +16,13 @@ const Login = () => {
           setError('Your Username is Not Correct')
         }
         console.log(record)
+
     }
 
     return (
         <>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique inventore itaque optio animi sint dolore ad, labore, commodi possimus reiciendis nam magnam laboriosam.</p>
         
             <form action="" onSubmit={handlesubmit} >
                 <span className='error-block'>{error}</span><br />

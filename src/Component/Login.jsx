@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,Link } from "react-router-dom";
 import { ContextApi } from "../ContextApi";
 import "./Login.css";
 
@@ -74,6 +74,10 @@ const Login = () => {
           Login
         </button>
       </form>
+      <div>
+        <p>Don't Have an Account? <span><Link to="/signup">Create An Account</Link></span></p>
+
+      </div>
     </>
   );
 };

@@ -6,6 +6,7 @@ import { ContextApi } from './ContextApi';
 import { useState } from 'react';
 import { Navbar } from './Component/Navbar';
 import { MyProfilePage } from './page/MyProfilePage';
+import { SignupPage } from './page/SignupPage';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path='/' element={<LoginPage/>}/>
       <Route path='/home' element={<HomePage/>}/>
       <Route path='/myprofile' element={<MyProfilePage/>}/>
+      <Route path='/signup' element={<SignupPage/>}/>
   
     </Routes>
 
